@@ -1,0 +1,43 @@
+
+.footer {
+    /* background: #7fa67f; */
+    background: white;
+    color: white;
+    padding: 50px 0;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+/* Footer heading styles */
+.footer h5 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    /* color: #1b700a; */
+    color: #50cb38;
+}
+/* Address section styles */
+.footer address {
+    font-style: normal;
+    color: white;
+}
+.footer strong {
+    color: #99cb8e;
+    /* color:#1b700a; */
+}
+/* Footer bottom section */
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #f3b3b3;
+    padding-top: 20px;
+    text-align: center;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer .social-icons a {
+        font-size: 22px;
+    }
+    .footer h5 {
+        font-size: 1.1rem;
+    }
+}
